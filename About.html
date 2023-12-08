@@ -1,0 +1,748 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>  
+   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!-- Title -->  
+  <title>Sweet Delight | Bakery Shop</title>
+ 
+  <!-- Favicon -->
+  
+
+  <!-- Font-Awesome (CSS) -->
+  <link rel="stylesheet" href="static/css/all.min.css">
+
+  <!-- Swiper (CSS) -->
+  <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/responsive.css">
+
+</head>
+<body>
+
+  <!-- ==================== Scroll-Top Area (Start) ==================== -->
+  <a href="#" class="scroll-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+  <!-- ==================== Scroll-Top Area (End) ==================== -->
+
+
+
+  <!-- ==================== Header Area (Start) ==================== -->
+  <header class="header">
+
+    <!-- ===== Header-1 Area (Start) ===== -->
+    <div class="header-1">
+
+      <!-- == Contacts == -->
+      <ul class="header-contacts">
+        <li><i class="fas fa-phone"></i><span>+111-222-333</span></li>
+        <li><i class="fas fa-envelope"></i><span class="gmail">abc@gmail.com</span></li>
+      </ul>
+
+      <!-- == Social == -->
+      <ul class="social-contacts">
+        <li><a href="#" class="fab fa-facebook-f"></a></li>
+        <li><a href="#" class="fab fa-twitter"></a></li>
+        <li><a href="#" class="fab fa-instagram"></a></li>
+        <li><a href="#" class="fab fa-linkedin"></a></li>
+      </ul>
+
+    </div>
+    <!-- ===== Header-1 Area (End) ===== -->
+
+    <!-- ===== Header-2 Area (Start) ===== -->
+    <div class="header-2">
+
+      <div id="menu-btn" class="icon fa-solid fa-bars-staggered"></div>
+
+      <!-- == Logo == -->
+      <a class="logo" href="index.html">
+        <img src="static/picture/Logo.png" alt="logo">
+        <div class="logo-name">
+          <h3>Sweet Delight</h3>
+        </div>
+      </a>
+
+      <div class="container">
+
+        <!-- == Navbar == -->
+        <nav class="navbar">
+
+          <a class="nav-btn" href="">首页</a>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">关于 <i class="fas fa-angle-down"></i> </button>
+            <div class="dropdown-content">
+              <a href="About.html">关于我们</a>
+              <a href="Testimonials.html">客户留言</a>
+              <a href="Faqs.html">常见问题</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">定购服务 <i class="fas fa-angle-down"></i> </button>
+            <div class="dropdown-content">
+              <a href="Menu.html">菜单</a>
+              <a href="Services.html">服务简介</a>
+              <a href="Pricing.html">定制服务</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">合作 <i class="fas fa-angle-down"></i> </button>
+            <div class="dropdown-content">
+              <a href="Portfolio.html">合作类别</a>
+              <a href="Portfolio-Single.html">合作服务</a>
+              <a href="Team.html">合作企业</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">帖子 <i class="fas fa-angle-down"></i> </button>
+            <div class="dropdown-content">
+              <a href="Blog-Grid.html">帖子总览</a>
+              <a href="Blog-List.html">帖子目录</a>
+              <a href="Blog-Single.html">帖子详情</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">店铺 <i class="fas fa-angle-down"></i> </button>
+            <div class="dropdown-content">
+              <a href="Shop-Grid.html">店铺总览</a>
+              <a href="Product-Single.html">单个产品</a>
+              <a href="Cart.html">购物车</a>
+            </div>
+          </div>
+
+          <div class="dropdown-menu">
+            <button class="nav-btn">个人 <i class="fas fa-angle-down"></i> </button>
+             <div class="dropdown-content">
+               <a href="Login.html">登录注册</a>
+               <a href="Checkout.html">个人界面</a>
+               <a href="Contact.html">联系我们</a>
+             </div>
+          </div>
+        </nav> 
+
+        <!-- == Icon Container == -->
+        <div class="icon-container"> 
+          <div id="search-btn" class="icon fa-solid fa-magnifying-glass"></div> <!-- Search Icon -->
+          <a href="Login.html" id="login" class="icon fas fa-user"></a> 
+          <a href="Cart.html" id="cart"> <!-- Cart Page Link -->
+            <i class="icon fas fa-shopping-cart"></i>
+            <span class="badge">5</span> <!-- Cart Items Count (Badge) -->
+          </a> 
+        </div>
+
+        <!-- == Search Container == -->
+        <form class="search-container">
+          <input type="search" id="search-bar" placeholder="search here" required=""> <!-- Search Input -->
+          <button type="submit"><i class="fas fa-search"></i></button> <!-- Submit Button -->
+        </form>
+
+      </div>
+
+    </div>
+    <!-- ===== Header-2 Area (End) ===== -->
+
+    <!-- ===== Mobile Menu Area (Start) ===== -->
+    <div class="mobile-menu"> 
+    
+      <nav class="mobile-navbar">
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <a class="nav-btn" href="index.html">home</a> </div>
+        </div>   
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">about</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="">about us</a>
+            <a href="Team.html">team</a>
+            <a href="Team-Single.html">team single</a>
+            <a href="Testimonials.html">testimonials</a>
+            <a href="Faqs.html">faqs</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">pages</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Menu.html">Menu</a>
+            <a href="Services.html">Services</a>
+            <a href="Service-Single.html">Services single</a>
+            <a href="Pricing.html">Pricing</a>
+            <a href="Login.html">login</a>
+            <a href="Register.html">register</a>
+            <a href="Reset-Password.html">forgot Password</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">Portfolio</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Portfolio-Single.html">Portfolio Single</a>
+          </div>
+        </div> 
+                
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">blog</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Blog-Grid.html">blogs grid</a>
+            <a href="Blog-List.html">blogs list</a>
+            <a href="Blog-Single.html">blog Single</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <div class="nav-btn">shop</div> <i class="fas fa-plus"></i> </div>
+          <div class="sub-nav-link">
+            <a href="Shop-Grid.html">shop grid</a>
+            <a href="Shop-List.html">shop list</a>
+            <a href="Product-Single.html">product Single</a>
+            <a href="Wishlist.html">wishlist</a>
+            <a href="Cart.html">cart</a>
+            <a href="Checkout.html">checkout</a>
+          </div>
+        </div> 
+
+        <div class="nav-link">
+          <div class="main-nav-link"> <a class="nav-btn" href="Contact.html">contact</a> </div>
+        </div>  
+
+      </nav>
+    
+    </div>
+    <!-- ===== Mobile Menu Area (End) ===== -->
+
+  </header>
+  <!-- ==================== Header Area (End) ==================== -->  
+
+    
+
+  <!-- ==================== Page-Title (Start) ==================== -->
+  <div class="page-title">
+
+    <div class="title">
+      <h2>关于我们</h2>
+    </div> 
+
+    <div class="link">
+      <a href="index.html">首页</a>
+      <i class="fa-solid fa-angles-right"></i>
+      <span class="page">关于我们</span>
+    </div>
+
+  </div>
+  <!-- ==================== Page-Title Area (End) ==================== -->
+
+ 
+
+  <!-- ==================== About-Us Area (Start) ==================== -->
+  <section class="about-us">
+
+    <!-- ========== About Area (Start) ========== -->
+    <section class="about"> 
+
+      <!-- About Information -->
+      <div class="box-container"> 
+    
+        <!-- About Image -->
+        <div class="image"> 
+          <div>
+            <img src="static/picture/About-1.jpg" alt="About-Image"><!-- About Image -->
+            <img src="static/picture/About-2.jpg" alt="About-Image"><!-- About Image -->
+          </div>
+          <div>
+            <img src="static/picture/About-3.jpg" alt="About-Image"><!-- About Image -->
+            <img src="static/picture/About-4.jpg" alt="About-Image"><!-- About Image -->
+          </div>
+        </div>
+    
+        <!-- About Content -->
+        <div class="content"> 
+
+          <div class="heading"> 
+            <span>关于我们</span> <!-- Sub Heading -->
+            <h2>创新思维与美食的碰撞</h2> <!-- Main Heading -->
+          </div>
+    
+          <h5>通过一些奇思妙想来制作出美味的新甜点</h5> <!-- Sub Heading -->
+          <p>我们常常会有一些奇妙的新想法，然后再把想法付出实践，把真材实料运用到实际当中，制作出令人叹为观止的美食。</p> <!-- Description -->
+
+          <a href="Contact.html" class="btn">联系我们</a> <!-- Contact Button -->
+
+        </div> 
+
+      </div> 
+
+    </section> 
+    <!-- ========== About Area (End) ========== -->
+
+    <!-- ========== Count Area (Start) ========== -->
+    <div class="counting">
+
+      <!-- Statistic Box 1: Delivered Products Count -->
+      <div class="box">
+        <div class="info">
+          <i class="fas fa-shopping-bag"></i> <!-- Shopping bag icon -->
+          <h1 class="count" data-count="50">50+</h1> <!-- Count of delivered products -->
+          <h3>交付的产品</h3> <!-- Statistic description -->
+        </div>
+      </div>
+
+      <!-- Statistic Box 2: Satisfied Clients Count -->
+      <div class="box">
+        <div class="info">
+          <i class="far fa-smile"></i> <!-- Smiling face icon -->
+          <h1 class="count" data-count="500">500+</h1> <!-- Count of satisfied clients -->
+          <h3>满意的客户</h3> <!-- Statistic description -->
+        </div>
+      </div>
+
+      <!-- Statistic Box 3: Projects Completed Count -->
+      <div class="box">
+        <div class="info">
+          <i class="fas fa-briefcase"></i> <!-- Briefcase icon -->
+          <h1 class="count" data-count="300">300+</h1> <!-- Count of completed projects -->
+          <h3>已完成的项目</h3> <!-- Statistic description -->
+        </div>
+      </div>
+
+      <!-- Statistic Box 4: Professional Experts Count -->
+      <div class="box">
+        <div class="info">
+          <i class="fas fa-users"></i> <!-- Users icon -->
+          <h1 class="count" data-count="20">20+</h1> <!-- Count of professional experts -->
+          <h3>专业专家</h3> <!-- Statistic description -->
+        </div>
+      </div>
+
+    </div>
+    <!-- ========== Count Area (End) ========== -->
+
+
+    <!-- ========== Process Area (Start) ========== -->
+    <section class="process">
+    
+      <!-- Section Heading -->
+      <div class="heading">
+        <span>订购步骤</span>
+        <h2>订购流程</h2>
+      </div>
+    
+      <!-- Process Steps -->
+      <div class="box-container">
+    
+        <!-- Process Step 1 -->
+        <div class="process-item">
+          <div class="image">
+            <img src="static/picture/Process-1.jpg" alt="Team-Image"> <!-- Process Image -->
+            <span class="step-no">01</span><!-- Process Step Number 1 -->
+          </div>
+          <div class="content">
+            <h3>产品选购</h3> <!-- Process Title -->
+            <p>从各种美味佳肴中选择。</p> <!-- Process Description -->
+          </div>
+        </div>
+    
+        <!-- Process Step 2 -->
+        <div class="process-item">
+          <div class="image">
+            <img src="static/picture/Process-2.jpg" alt="Team-Image"> <!-- Process Image -->
+            <span class="step-no">02</span><!-- Process Step Number 1 -->
+          </div>
+          <div class="content">
+            <h3>订单明细</h3> <!-- Process Title -->
+            <p>向我们提供您的订单规格。</p> <!-- Process Description -->
+          </div>
+        </div>
+    
+        <!-- Process Step 3 -->
+        <div class="process-item">
+          <div class="image">
+            <img src="static/picture/Process-3.jpg" alt="Team-Image"> <!-- Process Image -->
+            <span class="step-no">03</span><!-- Process Step Number 1 -->
+          </div>
+          <div class="content">
+            <h3>付款</h3> <!-- Process Title -->
+            <p>查看您的订单完成您的付款。</p> <!-- Process Description -->
+          </div>
+        </div>
+    
+        <!-- Process Step 4 -->
+        <div class="process-item">
+          <div class="image">
+            <img src="static/picture/Process-4.jpg" alt="Team-Image"> <!-- Process Image -->
+            <span class="step-no">04</span><!-- Process Step Number 1 -->
+          </div>
+          <div class="content">
+            <h3>交货</h3> <!-- Process Title -->
+            <p>我们将会准时到达，给您良好的购货体验。</p> <!-- Process Description -->
+          </div>
+        </div>
+    
+      </div>
+    
+    </section>
+    <!-- ========== Process Area (End) ========== -->
+
+
+    <!-- ========== Team Area (Start) ========== -->
+    <section class="team">
+    
+      <!-- Section Heading -->
+      <div class="heading">
+        <span>了解我们的专业知识</span>
+        <h2>我们团队</h2>
+      </div>
+    
+      <!-- Team Members -->
+      <div class="box-container">
+    
+        <!-- Team Member 1 -->
+        <div class="team-item">
+          <img src="static/picture/Team-1.jpg" alt="Team-Image"> <!-- Team Member Image -->
+          <div class="content">
+            <div class="intro">
+              <a href="Team-Single.html"><h3>邝舒亭</h3></a> <!-- Team Member Name -->
+              <p>店长</p> <!-- Team Member Designation -->
+            </div>
+            <div class="icon-container">
+              <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Icon -->
+              <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Icon -->
+              <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Icon -->
+              <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Icon -->
+            </div>
+          </div>
+        </div>
+    
+        <!-- Team Member 2 -->
+        <div class="team-item">
+          <img src="static/picture/Team-2.jpg" alt="Team-Image"> <!-- Team Member Image -->
+          <div class="content">
+            <div class="intro">
+              <a href="Team-Single.html"><h3>张钰婧</h3></a> <!-- Team Member Name -->
+              <p>面包师</p> <!-- Team Member Designation -->
+            </div>
+            <div class="icon-container">
+              <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Icon -->
+              <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Icon -->
+              <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Icon -->
+              <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Icon -->
+            </div>
+          </div>
+        </div>
+    
+        <!-- Team Member 3 -->
+        <div class="team-item">
+          <img src="static/picture/Team-3.jpg" alt="Team-Image"> <!-- Team Member Image -->
+          <div class="content">
+            <div class="intro">
+              <a href="Team-Single.html"><h3>李碧瑶</h3></a> <!-- Team Member Name -->
+              <p>面包师</p> <!-- Team Member Designation -->
+            </div>
+            <div class="icon-container">
+              <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Icon -->
+              <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Icon -->
+              <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Icon -->
+              <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Icon -->
+            </div>
+          </div>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="team-item">
+          <img src="static/picture/Team-4.jpg" alt="Team-Image"> <!-- Team Member Image -->
+          <div class="content">
+            <div class="intro">
+              <a href="Team-Single.html"><h3>梁泳茵</h3></a> <!-- Team Member Name -->
+              <p>服务员</p> <!-- Team Member Designation -->
+            </div>
+            <div class="icon-container">
+              <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Icon -->
+              <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Icon -->
+              <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Icon -->
+              <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Icon -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- Team Member 5 -->
+        <div class="team-item">
+          <img src="static/picture/Team-5.jpg" alt="Team-Image"> <!-- Team Member Image -->
+          <div class="content">
+            <div class="intro">
+              <a href="Team-Single.html"><h3>陈晓婷</h3></a> <!-- Team Member Name -->
+              <p>服务员</p> <!-- Team Member Designation -->
+            </div>
+            <div class="icon-container">
+              <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Icon -->
+              <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Icon -->
+              <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Icon -->
+              <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Icon -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- Team Member 6 -->
+        <div class="team-item">
+          <img src="static/picture/Team-6.jpg" alt="Team-Image"> <!-- Team Member Image -->
+          <div class="content">
+            <div class="intro">
+              <a href="Team-Single.html"><h3>王月亚</h3></a> <!-- Team Member Name -->
+              <p>送货员</p> <!-- Team Member Designation -->
+            </div>
+            <div class="icon-container">
+              <a href="#"><i class="fab fa-facebook-f"></i></a> <!-- Facebook Icon -->
+              <a href="#"><i class="fab fa-linkedin-in"></i></a> <!-- LinkedIn Icon -->
+              <a href="#"><i class="fab fa-twitter"></i></a> <!-- Twitter Icon -->
+              <a href="#"><i class="fab fa-instagram"></i></a> <!-- Instagram Icon -->
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    
+    </section>
+    <!-- ========== Team Area (End) ========== -->
+
+
+    <!-- ========== Testimonials Area (Start) ========== -->  
+    <section class="testimonial-bg linear-bg">
+    
+      <!-- Section Heading -->
+      <div class="heading">
+        <span>倾听客户声音</span>
+        <h2>我们订单感言</h2> 
+      </div>
+    
+      <!-- Testimonial Slider -->
+      <div class="swiper-container testimonial-slider">
+        <div class="swiper-wrapper">
+  
+          <!-- Testimonial Slide 1 -->
+          <div class="swiper-slide testi-item">
+  
+            <div class="content">
+              <i class="fa-solid fa-quote-left quote-start"></i> <!-- Quote Icon -->
+              <p>包装精致，看起来还有设计感，甜点很美味，很符合我的口味，而且整体口味偏淡，我记得还是不错的，非常推荐，五星好评！</p> <!-- Testimonial Comment -->
+              <!-- Testimonial Rating -->
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+    
+            <!-- Testimonial Author Info -->
+            <div class="intro">
+              <img src="static/picture/Pic-1.jpg" alt="Testimonial-Pic"> <!-- Testimonial Author Image -->
+              <h3>小贤</h3> <!-- Testimonial Author Name -->
+              <h5>客户</h5> <!-- Testimonial Author Designation -->
+            </div>
+  
+          </div>
+    
+          <!-- Testimonial Slide 2 -->
+          <div class="swiper-slide testi-item">
+  
+            <div class="content">
+              <i class="fa-solid fa-quote-left quote-start"></i> <!-- Quote Icon -->
+              <p>第一次吃这家店铺，完全超乎我的意料，非常好吃，包装精良，味道超赞，能感受到商家真的是用心做的。</p> <!-- Testimonial Comment -->
+              <!-- Testimonial Rating -->
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+    
+            <!-- Testimonial Author Info -->
+            <div class="intro">
+              <img src="static/picture/Pic-2.jpg" alt="Testimonial-Pic"> <!-- Testimonial Author Image -->
+              <h3>蔡畅</h3> <!-- Testimonial Author Name -->
+              <h5>客户</h5> <!-- Testimonial Author Designation -->
+            </div>
+          </div>
+    
+          <!-- Testimonial Slide 3 -->
+          <div class="swiper-slide testi-item">
+  
+            <div class="content">
+              <i class="fa-solid fa-quote-left quote-start"></i> <!-- Quote Icon -->
+              <p>看着就觉得非常有食欲，非常好吃，性价比也非常高，尤其是那个彩虹甜甜圈，口味刚刚好，不会说甜到发齁，而且店铺店员态度非常好，下次还来，也会推荐给朋友。</p> <!-- Testimonial Comment -->
+              <!-- Testimonial Rating -->
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+    
+            <!-- Testimonial Author Info -->
+            <div class="intro">
+              <img src="static/picture/Pic-3.jpg" alt="Testimonial-Pic"> <!-- Testimonial Author Image -->
+              <h3>小白</h3> <!-- Testimonial Author Name -->
+              <h5>客户</h5> <!-- Testimonial Author Designation -->
+            </div>
+  
+          </div>
+  
+        </div>
+    
+        <!-- Testimonial Slider Pagination -->
+        <div class="swiper-pagination swiper-pagination3"></div>
+    
+        <!-- Testimonial Slider Navigation Buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+  
+      </div>
+      
+    </section> 
+    <!-- ========== Testimonials Area (End) ========== -->
+
+
+    <!-- ========== Partners Area (Start) ========== -->
+    <section class="partners">
+
+      <!-- Section Heading -->
+      <div class="heading">  
+        <span>认识我们尊贵的合作伙伴</span> 
+        <h2>我们的合作伙伴</h2> 
+      </div>
+    
+      <!-- Partner Slider Container -->
+      <div class="swiper-container partner-slider">
+
+        <!-- Partners Logo -->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-1.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-2.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-3.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-4.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-5.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-6.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-7.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-8.png" alt="Partner-Logo"></a></div>
+          <div class="swiper-slide partner-item"><a href="#"><img src="static/picture/Partner-9.png" alt="Partner-Logo"></a></div>
+        </div>
+      </div> 
+
+    </section>    
+    <!-- ========== Partners Area Area (End) ========== -->
+
+  </section>
+  <!-- ==================== About-Us Area (End) ==================== -->
+
+
+    
+  <!-- ==================== Footer Area (Start) ==================== -->
+  <footer class="footer">
+
+    <div class="box-container">
+
+      <!-- == StartUp Description & Social Account Links == -->
+      <div class="footer-item">
+        
+        <!-- Logo -->
+        <a class="logo" href="index.html">
+          <img src="static/picture/Logo.png" alt="logo">
+          <div class="logo-name">
+             <h3>Sweet Delight</h3>
+          </div>
+        </a>
+        <!-- Description -->
+        <p>尽情享受明天的烘焙体验！从定制创意到美味佳肴，我们重新定义了甜蜜的可能性。以卓越的创新烘焙品味当下时刻。</p>
+        <!-- Social Account Links -->
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+      </div>
+
+      <!-- == Useful Links == -->
+      <div class="footer-item">
+        <h2>相关链接</h2>
+        <div class="info links">
+          <p><i class="fas fa-caret-right"></i><a href="About.html">关于</a></p>
+          <p><i class="fas fa-caret-right"></i><a href="Services.html">服务简介</a></p>
+          <p><i class="fas fa-caret-right"></i><a href="Portfolio.html">企业类别</a></p>
+          <p><i class="fas fa-caret-right"></i><a href="Blog-Grid.html">帖子总览</a></p>
+          <p><i class="fas fa-caret-right"></i><a href="Shop-Grid.html">店铺总览</a></p>
+          <p><i class="fas fa-caret-right"></i><a href="Contact.html">联系我们</a></p>
+        </div>
+      </div>
+
+      <!-- == Business Timing == -->
+      <div class="footer-item">
+        <h2>营业时间</h2>
+        <div class="timings">
+          <div class="timing-row">
+            <p class="days">星期一 ~ 星期五</p>
+            <p>上午 08：00 - 下午 08：30</p>
+          </div>
+          <div class="timing-row">
+            <p class="days">周六 ~ 周日</p>
+            <p>上午10：00 - 下午10：30</p>
+          </div>
+        </div>
+      </div> 
+
+      <!-- == Contact Information == -->
+      <div class='footer-item'>
+        <h2>联系方式</h2> 
+        <div class="info connect">
+          <p><i class="fas fa-phone"></i><span>+111-222-333</span></p>
+          <p><i class="fas fa-phone"></i><span>+123-456-789</span></p>
+          <p><i class="fas fa-envelope"></i><span class="gmail">abc@gmail.com</span></p>
+          <p><i class="fas fa-envelope"></i><span class="gmail">xyz@gmail.com</span></p>
+          <p><i class="fas fa-map"></i><span>巴基斯坦卡拉奇</span></p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- == Designer's name and copyright == -->
+    <div class="content">
+      <p>Copyright &copy; 2023.Company name All rights reserved.</p>
+    </div>
+
+  </footer>
+  <!-- ==================== Footer Area (End) ==================== -->
+
+
+
+  <!-- Jquery -->
+  <script src="static/js/jquery.min.js"></script>
+
+  <!-- Swiper (JS) -->
+  <script src="static/js/swiper-bundle.min.js"></script>
+
+  <!-- Custom Script Files -->
+  <script src="static/js/script.js"></script> <!-- Additional website functionality -->
+  <script src="static/js/nav-link-toggler.js"></script> <!-- Mobile navigation toggler -->
+  <script src="static/js/partner-slider.js"></script> <!-- Partner Slider -->
+  <script src="static/js/counter-up.js"></script> <!-- Numerical counting animation -->
+  <script src="static/js/testi-slider.js"></script> <!-- Testimonial Slider -->
+
+
+</body>
+</html>
